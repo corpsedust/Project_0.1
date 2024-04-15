@@ -5,14 +5,19 @@
 }
 
 img{
-    width : 30%;
+    width : 50%;
+    position : relative;
+    left: 25%;
+   
 }
 
 #search-bar{
-    width: 400px;
-    height : 30px;
+    width: 800px;
+    height : 40px;
     border : 1px solid lightgray;
-    border-radius : 15px;
+    border-radius : 20px;
+    position : relative;
+    left : 10%;
 }
 
 #search-bar input[type=text]{
@@ -24,13 +29,33 @@ img{
     font-size : 15px;
 }
 
+
+#search-section #search-bar:hover{
+    box-shadow : 0 0 2px 2px lightgray;
+}
+
 #search-bar i{
     color : lightgray;
     margin-left: 10px;
 }
 
-#search-bar input[type="button"]
+#search-section input[type=submit]
 {
-    width : 20%;
-    
+    width : 100px;
+    height : 40px;
+    margin-top : 15px;
+    position : relative;
+    left : 45%;
 }
+
+#search-section{
+    margin: auto;
+    width: 1000px;
+   
+    height: 30%;
+    position : absolute;
+    top : 35%;
+    left: 20%;
+}
+
+
