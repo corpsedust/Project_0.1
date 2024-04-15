@@ -1,6 +1,36 @@
 *{
-    box-sizing: border-box;
+   
     margin : 0;
     padding: 0;
 }
 
+img{
+    width : 30%;
+}
+
+#search-bar{
+    width: 400px;
+    height : 30px;
+    border : 1px solid lightgray;
+    border-radius : 15px;
+}
+
+#search-bar input[type=text]{
+    width :80%;
+    height: 100%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    font-size : 15px;
+}
+
+#search-bar i{
+    color : lightgray;
+    margin-left: 10px;
+}
+
+#search-bar input[type="button"]
+{
+    width : 20%;
+    
+}
