@@ -16,8 +16,9 @@
         </header>
         <div id = "search-section">
             <a href="images.html"><img src = "google-logo2.png" alt = "google-logo" width : 200></a>
-            <form action="https://images.google.com/">
-                <div id= "search-bar">
+            <form action="https://www.google.com/search">
+                <input type="hidden" name="tbm" value="isch">  <!--This tbm value is different for different tabs in google search, it isch for img, bks for books, nws for news etc. -->
+                <div id= "search-bar">                          <!--This is I guess how google differentiates -->
                     <i class="fa fa-search"></i>
                     <input type="text" name="q" placeholder = "Search . . . "><br>
                 </div>    
