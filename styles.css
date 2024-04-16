@@ -6,9 +6,9 @@
 }
 
 img{
-    width : 50%;
+    width : 40%;
     position : relative;
-    left: 25%;
+    left: 30%;
    
 }
 
@@ -29,11 +29,12 @@ img{
     border-radius : 20px;
     position : relative;
     left : 10%;
+    margin-top : 25px;
     
 }
 
 #search-bar input[type=text]{
-    width :80%;
+    width :90%;
     height: 100%;
     margin-left: 10px;
     border: none;
@@ -44,6 +45,7 @@ img{
 
 #search-section #search-bar:hover{
     box-shadow : 0 0 2px 2px lightgray;
+    
 }
 
 #search-bar i{
@@ -56,7 +58,7 @@ img{
     color: white;
     width : 120px;
     height : 40px;
-    margin-top : 15px;
+    margin-top : 25px;
     position : relative;
     left : 45%;
     font-size: 15px;
